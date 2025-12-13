@@ -1,6 +1,6 @@
 Package: automatedRecLin
 Title: Record Linkage Based on an Entropy-Maximizing Classifier
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
   c(person(given = "Adam",
            family = "Struzik",
@@ -17,17 +17,17 @@ Encoding: UTF-8
 URL: https://github.com/ncn-foreigners/automatedRecLin,
         http://ncn-foreigners.ue.poznan.pl/automatedRecLin/
 BugReports: https://github.com/ncn-foreigners/automatedRecLin/issues
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Imports: data.table, densityratio, FixedPoint, methods, nleqslv, purrr,
         reclin2, stats, utils
 Suggests: tinytest, xgboost
 Depends: R (>= 4.1.0)
 LazyData: true
 NeedsCompilation: no
-Packaged: 2025-11-13 16:36:39 UTC; adamstruzik
+Packaged: 2025-12-13 09:26:40 UTC; adamstruzik
 Author: Adam Struzik [aut, cre],
   Maciej Beręsewicz [aut, ctb] (ORCID:
     <https://orcid.org/0000-0002-8281-4301>)
 Maintainer: Adam Struzik <adastr5@st.amu.edu.pl>
 Repository: CRAN
-Date/Publication: 2025-11-18 09:20:02 UTC
+Date/Publication: 2025-12-13 09:40:02 UTC
