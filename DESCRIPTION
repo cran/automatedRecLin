@@ -1,11 +1,12 @@
 Package: automatedRecLin
 Title: Record Linkage Based on an Entropy-Maximizing Classifier
-Version: 1.0.1
+Version: 1.1.0
 Authors@R: 
   c(person(given = "Adam",
            family = "Struzik",
            role = c("aut", "cre"),
-           email = "adastr5@st.amu.edu.pl"),
+           email = "adastr5@st.amu.edu.pl",
+           comment = c(ORCID = "0009-0002-2547-482X")),
     person(given = "Maciej",
            family = "Beręsewicz",
            role = c("aut", "ctb"),
@@ -17,17 +18,19 @@ Encoding: UTF-8
 URL: https://github.com/ncn-foreigners/automatedRecLin,
         http://ncn-foreigners.ue.poznan.pl/automatedRecLin/
 BugReports: https://github.com/ncn-foreigners/automatedRecLin/issues
-RoxygenNote: 7.3.3
-Imports: data.table, densityratio, FixedPoint, methods, nleqslv, purrr,
-        reclin2, stats, utils
-Suggests: tinytest, xgboost
+Imports: blocking, data.table, densityratio, FixedPoint, methods,
+        nleqslv, purrr, reclin2, stats, utils
+Suggests: knitr, rmarkdown, tinytest, xgboost
 Depends: R (>= 4.1.0)
 LazyData: true
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.0.0
 NeedsCompilation: no
-Packaged: 2025-12-13 09:26:40 UTC; adamstruzik
-Author: Adam Struzik [aut, cre],
+Packaged: 2026-05-07 16:41:23 UTC; adamstruzik
+Author: Adam Struzik [aut, cre] (ORCID:
+    <https://orcid.org/0009-0002-2547-482X>),
   Maciej Beręsewicz [aut, ctb] (ORCID:
     <https://orcid.org/0000-0002-8281-4301>)
 Maintainer: Adam Struzik <adastr5@st.amu.edu.pl>
 Repository: CRAN
-Date/Publication: 2025-12-13 09:40:02 UTC
+Date/Publication: 2026-05-08 07:40:21 UTC
